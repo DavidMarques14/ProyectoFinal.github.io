@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: lightblue;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #25abb4;
+  ;
+}
+
+.container {
+  margin: 20px auto;
+  width: 90%;
+}
+
+nav {
+  font-family: sans-serif;
+  background-color: #d1faff;
+  color: #25abb4;
+  text-align: center;
+
+}
+
+nav div {
+  display: inline-block;
+  font-weight: bold;
+  padding: 10px;
+  width: 15%;
+
+}
+
+footer {
+  font-family: sans-serif;
+  background-color: #d1faff;
+  color: #25abb4;
+  padding: 20px;
+  text-align: center;
+  clear: both;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.sidebar {
+  font-family: sans-serif;
+  background-color: white;
+  color: #25abb4;
+  margin-top: 3%;
+  width: 15%;
+  font-weight: bold;
+  float: left;
+  height: 500px;
+
+}
+
+.sidebar div {
+  font-family: sans-serif;
+  padding: 30px;
+}
+
+.center {
+  background-color: #d1faff;
+  font-family: sans-serif;
+  width: 80%;
+  font-size: 20px;
+  color: #25abb4;
+  margin-top: 3%;
+  float: right;
+  margin-left: 3%;
+  font-weight: bold;
+  margin-bottom: 2%;
+  height: 24em;
+
+}
+
+.ies {
+  height: 26%;
+  margin-top: 80%;
+}
+
+fieldset {
+  border-color: #25abb4;
+  border-style: solid;
+}
+
+.centro {
+  background-color: #d1faff;
+  font-family: sans-serif;
+  width: 80%;
+  font-size: 20px;
+  color: #25abb4;
+  margin-top: 3%;
+  float: right;
+  height: 24em;
+  margin-left: 3%;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 15%;
+
+}
+
+.table {
+  width: 100%;
+  border: 1px solid #ccc;
+  margin: 0;
+  padding: 0;
+  table-layout: fixed;
+}
+
+.table tr {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+}
+
+.table th, .table td {
+  font-size: 16px;
+  padding: 8px;
+  text-align: center;
+}
